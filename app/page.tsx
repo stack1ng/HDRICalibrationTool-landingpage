@@ -55,6 +55,15 @@ export default function Home() {
 					This is a tool for creating and analyzing calibrated HDR images from a
 					set of LDR images and some camera infromation.
 				</p>
+				<section className="mt-12 max-w-3xl">
+					<h2 className="text-3xl font-bold mb-4">Key Features</h2>
+						<ul className="space-y-2 text-zinc-700 dark:text-zinc-300">
+							<li>• Upload multiple exposure photos and generate calibrated HDR luminance maps in one workflow</li>
+							<li>• Configure camera response and calibration data through a guided interface</li>
+							<li>• Compare HDR outputs side-by-side for analysis and validation</li>
+							<li>• Reduce reliance on manual command-line Radiance workflows</li>
+						</ul>
+				</section>
 				<section>
 					<h1 className="text-4xl font-bold pb-8">
 						Create a Calibrated HDR Image
@@ -103,6 +112,15 @@ export default function Home() {
 						</svg>
 						View on GitHub
 					</Link>
+				</section>
+				<section className="mt-12 max-w-3xl">
+				<h2 className="text-3xl font-bold mb-4">Why This Tool Exists</h2>
+				<p className="text-zinc-700 dark:text-zinc-300">
+					HDR image calibration typically requires multiple command-line tools such as Radiance and hdrgen, which can be difficult to configure and error-prone for new users. This slows down lighting analysis workflows in research and design.
+				</p>
+				<p className="mt-3 text-zinc-700 dark:text-zinc-300">
+					This application was built to make HDR calibration more accessible, reproducible, and efficient through a visual interface.
+				</p>
 				</section>
 				<section className="mx-auto mt-16 max-w-4xl rounded-3xl p-8">
 					<div className="text-center">
