@@ -55,6 +55,15 @@ export default function Home() {
 					This is a tool for creating and analyzing calibrated HDR images from a
 					set of LDR images and some camera infromation.
 				</p>
+				<section className="mt-12 max-w-3xl">
+                    <h2 className="text-3xl font-bold mb-4">Key Features</h2>
+                        <ul className="space-y-2 text-zinc-700 dark:text-zinc-300">
+                            <li>• Generate calibrated HDR images from sets of LDR photos</li>
+                            <li>• Real-time preview of lighting environments</li>
+                            <li>• Compare processed outputs side-by-side</li>
+                            <li>• Built for fast iteration and experimentation</li>
+                        </ul>
+                </section>　Do you think it is fine to add？
 				<section>
 					<h1 className="text-4xl font-bold pb-8">
 						Create a Calibrated HDR Image
